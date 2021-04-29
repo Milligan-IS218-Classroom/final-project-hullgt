@@ -1,1 +1,98 @@
+.container{
+	padding: 1px;
+	text-align: center;
+	color: white;
+	background: #1abc9c;
+	font-size: 30px
+}
 
+ul.navlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 0px;
+}
+
+li.navlist {
+  list-style-type: none;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 500px; 
+  font-size: 35px;
+  text-align: center; 
+  font-family: Brush Script MT;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h2 {
+	text-align: center;
+	font-size: 50px;
+	background-color: #1abc9c;
+	margin: 0;
+	
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+body{
+	background-color: gray;
+}
+
+img {
+	border: 3px solid #1abc9c;
+	margin: 25px; 
+}
+
+.button {
+  background-color: #1abc9c;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+  [class*="column"] {
+    width: 100%;
+  }
+}
