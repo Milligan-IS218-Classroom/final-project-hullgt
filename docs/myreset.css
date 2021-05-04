@@ -1,0 +1,23 @@
+adress, article, aside, blockquote, body, cite, 
+div, d,l,dt,dd,em, figcaption, figure, footer, h1, 
+h2, h3, html, img, li, main, nav, ol, p, section, span, ul {
+	background: transparent;
+	font-size: 100%;
+	margin: 0px;
+	padding: 0;
+	vertical-align: baseline;
+	
+}
+
+nav ul{
+	list-style: none;
+	list-style-image: none;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+body{
+	line-height: 1; 
+}
